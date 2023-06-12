@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExemploMAUIPDM.GreetingPage"
+             BackgroundColor="#E0F0FF">
+    <!-- Define uma cor de fundo azul clara para a página -->
+
+    <StackLayout Padding="20" VerticalOptions="Center">
+
+        <!-- Cria um BoxView para mostrar um círculo amarelo no centro da página -->
+        <BoxView Color="Yellow" 
+                 WidthRequest="100" 
+                 HeightRequest="100" 
+                 HorizontalOptions="Center" 
+                 Margin="0,20" 
+                 CornerRadius="50" />
+
+        <!-- Label para mostrar a mensagem de saudação e atribui um nome para ele -->
+        <Label x:Name="lblSaudacao" 
+               FontFamily="Cursive" 
+               FontSize="18" 
+               TextColor="#333333" 
+               HorizontalOptions="Center" />
+
+        <!-- Botao para voltar para a MainPage -->
+        <Button Text="Voltar" 
+                Clicked="Button_Clicked" 
+                FontFamily="Arial" FontSize="16" 
+                TextColor="White" 
+                BackgroundColor="#007AFF" 
+                CornerRadius="10" 
+                Margin="0,20"/>
+        
+    </StackLayout>
+</ContentPage>

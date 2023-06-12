@@ -1,0 +1,37 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExemploMAUIPDM.MainPage"
+             BackgroundColor="#F0F0F0">
+    <!-- Define uma cor de fundo clara para a página -->
+
+   
+    <StackLayout Padding="20" VerticalOptions="Center">
+        
+        <!-- StackLayout para organizar os nomes e RAs em uma pilha vertical -->
+        <StackLayout HorizontalOptions="Center" Spacing="10">
+            <!-- Label para cada nome e RA -->
+            <Label Text="EDUARDO BORDIGNON" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="RA: 22101378" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="GUSTAVO A. TEIXEIRA" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="RA: 22155674" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="NATHAN DINIZ DO VALE JARA" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="RA: 22207302" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="RAMIRO B. LADARIO" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="RA: 21706903" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="SÉRGIO LIMA GRIPPA" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="RA: 22154594" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="VICTOR MOREIRA NAVES RIBEIRO" FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center" />
+            <Label Text="RA: 22152695 " FontSize="14" TextColor="#333333" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+
+        <!-- Label para pedir o nome do usuário -->
+        <Label Text="Digite seu nome:" FontFamily="Arial" FontSize="18" TextColor="#333333" />
+
+        <!-- Entry para o usuário digitar seu nome e atribui um nome para ele -->
+        <Entry x:Name="nameEntry" FontFamily="Arial" FontSize="18" TextColor="#333333" />
+
+        <!-- Botao para navegar para a próxima página e define um evento de clique -->
+        <Button Text="Clique aqui e te conto um segredo" Clicked="OnButtonClicked" FontFamily="Arial" FontSize="16" TextColor="White" BackgroundColor="#007AFF" CornerRadius="10" />
+    </StackLayout>
+</ContentPage>
+
