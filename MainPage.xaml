@@ -1,0 +1,25 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExemploMAUIPDM.MainPage"
+             BackgroundColor="#F0F0F0">
+    <!-- Define uma cor de fundo clara para a página -->
+
+    
+
+    <StackLayout Padding="20" VerticalOptions="Center">
+        <!-- Cria um Label para mostrar o seu nome e o nome do aplicativo no canto superior direito -->
+        <Label Text="Exemplo MAUI PDM por slgri" HorizontalOptions="End" FontFamily="Arial" FontSize="14" TextColor="#999999" />
+
+        <!-- Cria um Image para mostrar um logotipo no centro da página -->
+        <Image Source="Resources/logo.png" HorizontalOptions="Center" Margin="0,20" />
+
+        <!-- Cria um Label para pedir o nome do usuário -->
+        <Label Text="Digite seu nome:" FontFamily="Arial" FontSize="18" TextColor="#333333" />
+
+        <!-- Cria um Entry para o usuário digitar seu nome e atribui um nome para ele -->
+        <Entry x:Name="nameEntry" FontFamily="Arial" FontSize="18" TextColor="#333333" />
+
+        <!-- Cria um Button para navegar para a próxima página e define um evento de clique -->
+        <Button Text="Ir para a próxima página" Clicked="OnButtonClicked" FontFamily="Arial" FontSize="18" TextColor="White" BackgroundColor="#007AFF" CornerRadius="10" />
+    </StackLayout>
+</ContentPage>

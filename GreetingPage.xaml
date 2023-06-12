@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExemploMAUIPDM.GreetingPage">
+
+
+    <StackLayout Padding="20" VerticalOptions="Center">
+        
+        <!-- Cria um Label para mostrar a mensagem de saudação e atribui um nome para ele -->
+        <Label x:Name="greetingLabel" FontSize="18" TextColor="#333333" HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>
