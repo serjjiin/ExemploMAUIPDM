@@ -4,9 +4,12 @@
              BackgroundColor="#F0F0F0">
     <!-- Define uma cor de fundo clara para a página -->
 
-   
+    
+
     <StackLayout Padding="20" VerticalOptions="Center">
-        
+        <!-- Cria um Label para mostrar o seu nome e o nome do aplicativo no canto superior direito -->
+        <Label Text="Exemplo MAUI PDM por slgri" HorizontalOptions="End" FontFamily="Arial" FontSize="14" TextColor="#999999" />
+
         <!-- StackLayout para organizar os nomes e RAs em uma pilha vertical -->
         <StackLayout HorizontalOptions="Center" Spacing="10">
             <!-- Label para cada nome e RA -->

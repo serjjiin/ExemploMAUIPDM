@@ -30,5 +30,7 @@
                 CornerRadius="10" 
                 Margin="0,20"/>
         
+        <!-- Cria um Label para mostrar a mensagem de saudação e atribui um nome para ele -->
+        <Label x:Name="greetingLabel" FontSize="18" TextColor="#333333" HorizontalOptions="Center" />
     </StackLayout>
 </ContentPage>
